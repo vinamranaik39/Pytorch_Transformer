@@ -18,11 +18,17 @@ The project implements the core Encoder-Decoder Transformer architecture, provid
 12. Autoregressive Translation
 
 Project Structure
+
 dataset.py     → Dataset preparation and attention masks
+
 arch.py     → Transformer architecture
+
 prep.py       → Training, validation, metrics, and checkpoints
+
 Conversion.py   → Inference and text generation
+
 Configuration.py  → Project configuration, paths, model and training settings
+
 README.md      → Project documentation
 
 The dataset pipeline tokenizes English and Spanish translation pairs, prepares encoder and decoder inputs, applies padding, and generates appropriate attention masks.
